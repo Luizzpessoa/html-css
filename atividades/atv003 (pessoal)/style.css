@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+body {
+    background-color: #D95525;
+}
+
+main {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(133, 98, 84, 0.475);
+    max-width: 1000px; /* Alterado para max-width */
+    width: 80%; /* Mudança para largura relativa */
+    padding: 10px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F27D16;
+    box-shadow: 0px 0px 20px #9c3d1b9f;
+}
+
+div.titulo h1{
+    text-align: center;
+    color: white;
+    text-shadow: #864812b6 2px 3px 5px;
+}
+
+div.titulo p {
+    font-size: 16px;
+    box-shadow: 0px 0px 20px #a0520e60;
+    text-align: justify;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F2AE30;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+div.container h2{
+    text-align: left;
+    color: white;
+    text-shadow: #864812b6 2px 3px 5px;
+}
+
+div.container p {
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+div.box {
+    box-shadow: 0px 0px 20px #a0520e60;
+    text-align: justify;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: flex; 
+    align-items: center;
+    width: 100;
+    margin-bottom: 20px; 
+    background-color: #F2AE30;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.8s ease;
+}
+
+div.box img {
+    width: 100% !important;
+    height: auto;
+    transition: transform 0.4s ease;
+    border-radius: 10px;
+    box-shadow: #864812b6 2px 3px 5px;
+}
+
+div.box img:hover {
+    transform: scale(103%); /* Aumenta o tamanho da imagem em 10% quando o mouse passa sobre ela */
+}
+
+div.box:hover {
+    transform: scale(103%);
+    transition-duration: 0.8s;
+}
+
+h2 {
+    text-align: left;
+    font-size: 150%;
+}
+
+/* Estilos para os parágrafos dentro das caixas */
+div.box p {
+    width:100%; /* Define a largura do parágrafo */
+    margin-left: 20px; /* Adiciona margem à esquerda para separar a imagem do parágrafo */
+    font-size: 100%; /* Define o tamanho da fonte do parágrafo */
+    text-align: left;
+}
+
+/* Estilos das outras páginas */
+
+div.comida img {
+    width: 85%;
+    height: auto;
+    margin-left: 7.5%;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+    box-shadow: #864812b6 2px 3px 5px;
+}
+
+div.comida img:hover {
+    transform: scale(1.03);
+}
+
+div.box-1 {
+    box-shadow: 0px 0px 20px #a0520e60;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%; 
+    background-color: #F2AE30;
+    border-radius: 10px;
+    padding-top: 0.1%;
+    padding-bottom: 3%;
+    transition: transform 0.8s ease;
+}
+
+.ingredientes {
+    list-style-type: none;
+    padding-left: 0;
+    color: white;
+    background-color: #F27D16;
+    box-shadow: 0px 0px 10px #80430d88;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.ingredientes li {
+    margin-bottom: 15px;
+}
+
+.ingredientes li label {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ingredientes li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.ingredientes li input[type="checkbox"] + label {
+    color: black;
+}
+
+.ingredientes li input[type="checkbox"]:checked + label {
+    color: green;
+    text-decoration: line-through;
+}
+
+div.preparo {
+    color: white;
+    text-align: justify;
+    font-size: large;
+    font-weight: 500;
+    background-color: #F27D16;
+    box-shadow: 0px 0px 10px #80430d88;
+    padding: 10px 40px;
+    border-radius: 10px;
+    
+}
+
+.voltar {
+    color: white;
+    font-weight: bold;
+    background-color: #8C4A11; /* Cor de fundo azul */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+    display: inline-block; /* Permite ajustar largura e altura */
+    transition: transform 0.4s ease;
+}
+
+.voltar:hover {
+    background-color: #F2AE30; /* Cor de fundo azul escuro ao passar o mouse */
+    transform: scale(1.05);
+    transition: transform 0.4s ease;
+}

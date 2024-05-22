@@ -10,6 +10,10 @@
     src: url('fontes/BebasNeue-Regular.ttf');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --cor0: #c5ebd6;
 	--cor1:	#83E1AD;

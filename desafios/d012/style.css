@@ -69,7 +69,7 @@ section {
 
 #b1 {
     background-image: url("imagens/background001.jpg");
-    background-size: cover;
+    background-size: fixed;
     background-position: right center;
 }
 

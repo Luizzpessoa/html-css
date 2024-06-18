@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    i#burger {
+        display: none;
+    }
+
+    main {
+        width: 768px;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+        border-bottom: 2px solid rgb(212, 75, 102);
+        border-right: 2px solid rgb(212, 75, 102);
+        border-left: 2px solid rgb(212, 75, 102);
+        margin-bottom: 3px;
+    }
+}
+
